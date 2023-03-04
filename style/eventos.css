@@ -1,0 +1,27 @@
+.eventos__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2em;
+}
+
+.eventos__titulo, .eventos__data, .eventos__banda {
+    padding: 0.5em;
+}
+
+.eventos__titulo {
+    font-family: var(--font-secundary);
+    font-weight: 700;
+    color: var(--white);
+    font-size: 64px;
+}
+
+.eventos__data {
+
+}
+
+.eventos__banda {
+    
+}

@@ -1,0 +1,44 @@
+.cabecalho-bg { /* Cor de fundo do cabeçalho */
+    background-color: var(--purple-boreal);
+}
+
+.cabecalho { /* Trabalhando nas organizações dos itens */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.cabecalho__logo {
+    margin: 10px;
+}
+
+.nav__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav__link {
+    font-family: var(--font);
+    padding: 20px 10px;
+    text-decoration: none;
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse por cima */
+}
+
+@media screen and (max-width: 768px) { /* layout para tablet */
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 32px;
+        gap: 32px;
+    } 
+
+}
